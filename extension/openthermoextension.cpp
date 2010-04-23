@@ -2,9 +2,12 @@
 #include "openthermoextension.h"
 
 #include <QtGui/QAction>
+#include <QtGui/QDialog>
 
 #include <avogadro/glwidget.h>
 #include <avogadro/molecule.h>
+
+using namespace OpenThermoQt;
 
 namespace Avogadro
 {

@@ -1,0 +1,5 @@
+OpenThermo-Qt4 is a Graphical User Interface for OpenThermo 
+(http://openthermo.sourceforge.net), both standalone application and plugin
+for Avogadro molecular editor (http://avogadro.openmolecules.net/)
+
+Allows to create, edit and run OpenThermo input files in user-friendly manner.

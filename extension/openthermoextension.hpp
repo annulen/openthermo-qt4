@@ -2,7 +2,7 @@
 #define OPENTHERMOEXTENSION_H
 
 #include <AvogadroWidget/extension.h>
-#include "../common/openthermowidget.hpp"
+#include "widget.hpp"
 
 namespace Avogadro {
 
@@ -30,7 +30,7 @@ namespace Avogadro {
       QList<QAction *> m_actions;
       Molecule *m_molecule;
 	  QDialog *m_dialog;
-	  OpenThermoWidget *m_otWidget;
+	  OpenThermoQt::OpenThermoWidget *m_otWidget;
 	  GLWidget *m_glWidget;
 
     private Q_SLOTS:
