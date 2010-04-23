@@ -4,12 +4,14 @@
 
 #include "widget.hpp"
 
+using namespace OpenThermoQt;
+
 int main(int argc, char **argv)
 {
   QApplication app(argc, argv);
-
-  // Load the translations
-  QPointer <QTranslator> otTranslator = OpenThermoQt::createTranslator();
+  
+  // Load the translations  
+  QPointer <QTranslator> otTranslator = createTranslator();
   if (otTranslator)
     qApp->installTranslator(otTranslator);
   

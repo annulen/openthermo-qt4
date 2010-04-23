@@ -1,3 +1,5 @@
+#include "global.hpp"
+
 #include <QtGui/QWidget>
 #include <AvogadroCore/molecule.h>
 
